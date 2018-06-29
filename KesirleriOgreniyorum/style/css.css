@@ -1,0 +1,141 @@
+body{
+	background-color:#ffe980;
+	margin:0px;
+	padding:10px;
+	
+	font:12px Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color: #2d2600;
+}
+ 
+ #baslik h1{
+ 
+	height:60px;
+	width:100%;
+	 padding-left:center;
+	 padding-top:30px;
+	 color: #2d2600;
+	 text-align:center;
+	 	font-size: 35px;
+		border:6px dashed #2d2600;
+ }
+ #menu{
+	display: block;
+	padding-left:15px;
+
+	clear:both;
+}
+#menu ul {
+	list-style:none;  
+	padding:0px;
+	margin-left: auto;
+	width:auto
+	}
+#menu li{  
+		display: inline;
+	    padding: 0px;
+	   list-style: none;
+	}
+	#menu a{  
+	text-align:center;
+		display:block;
+		text-align:center;
+		text-decoration:none;
+		font-size:16px;
+		font-weight: bold;
+		color: #2d2600;
+	 
+	  border-bottom:1px dashed #2d2600;  
+		
+	}
+ 
+#menu a:hover{
+color:#725e00;}
+#solMenu {
+	margin-top:40px;
+	width:auto;
+ 	height: 200px;
+	float: left;
+	background-color: #2d2600;
+	border-radius:15px;
+	padding:15px 20px 5px 10px;
+		border:6px solid #675500;
+}
+#solMenu ul{
+	list-style:none;
+	padding:0px;
+	width:auto;
+ 
+}
+#solMenu ul li{
+	list-style: none;
+	padding: 20px 0 15px 0;
+	
+	
+}
+#solMenu ul li a, #solMenu ul li a :visited{
+	    float:left;
+		text-decoration:none;
+		font-size:15px;
+		color:#ffffff ;
+		border-bottom: 2px dashed #ffe877;
+}
+#solMenu ul li a:hover{
+	color:#ffe877;
+}
+#solMenu h3{
+	
+	color:#ffffff; /*color: white ayný ifade*/
+	padding-bottom: 4px;
+	border-bottom: 2px solid #ffe877;
+	
+}
+
+#content{
+	display: block;
+	float:left;
+	margin-top:40px;
+	margin-left: 10px;
+	width:650px;
+	height:auto;
+	padding-left:0px;
+	padding-bottom:10px;
+	background-color:#fff;
+	border: 6px solid #675500;
+	border-radius:15px;
+	font:15px Arial, Helvetica, sans-serif;
+}
+#content img.resim {  
+	float: left;
+	padding:0px;
+	margin:10px;
+	height:100px;
+	width:100px;
+	
+}
+ 
+#content h2{
+	text-align:center;
+	font-style:bold;
+}
+ 
+#content1{
+	display: block;
+	float:left;
+	margin-top:40px;
+	margin-left: 10px;
+	width:650px;
+	height:auto;
+	 padding:10px;
+	background-color:#fff;
+	border: 6px solid #675500;
+	border-radius:15px;
+	font:15px Arial, Helvetica, sans-serif;
+	text-align:center;
+ 
+}
+.etkinlik{
+	  	float:center;
+  }
+ 
+ 
